@@ -1,16 +1,5 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
-local zaevim_logo = [[
-"┌───────────────┐",
-"├┬┬┬───────┬─┬┐ │",
-"││││┌──────┼─┤│ │",
-"│││││ZaeVim│ ││ │",
-"││││└┬┬────┤ ││ │",
-"││├┼─┴┼────┼─┼┤ │",
-"││├┼──┼────┴─┼┤ │",
-"└┴┴┴──┴──────┴┴─┘"
-]]
-
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
     "git", "clone", "--filter=blob:none",
@@ -56,24 +45,6 @@ require("lazy").setup({
     event = "VeryLazy",
     config = function()
       require("config.which-key")
-    end,
-  },
-  {
-    "zbirenbaum/copilot.lua",
-    cmd = "Copilot",
-    event = "InsertEnter",
-    config = function()
-      require("copilot").setup({
-        suggestion = { enabled = false },
-        panel = { enabled = false },
-      })
-    end,
-  },
-  {
-    "zbirenbaum/copilot-cmp",
-    after = { "copilot.lua" },
-    config = function()
-      require("copilot_cmp").setup()
     end,
   },
   {
