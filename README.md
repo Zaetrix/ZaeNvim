@@ -17,7 +17,7 @@ You can install be any of the following methods:
     <pre>Rename-Item -Path "$env:LOCALAPPDATA\nvim" -NewName "nvim.bak"</pre>
     Windows (cmd):
     <pre>cd %LOCALAPPDATA%
-    ren nvim nvim.bak</pre>
+ren nvim nvim.bak</pre>
     Basically anything else:
     <pre>mv $XDG_CONFIG_HOME/nvim $XDG_CONFIG_HOME/nvim.bak</pre>
 </details>
