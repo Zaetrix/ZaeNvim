@@ -14,7 +14,7 @@ You can install be any of the following methods:
   <summary>Manual</summary>
   1. Backup your current config
     Windows (PowerShell):
-    <pre> ```bash Rename-Item -Path "$env:LOCALAPPDATA\nvim" -NewName "nvim.bak" ``` </pre>
+    <pre>Rename-Item -Path "$env:LOCALAPPDATA\nvim" -NewName "nvim.bak"</pre>
 </details>
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
