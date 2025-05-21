@@ -10,13 +10,11 @@ Install Zig using Choco or WinGet or gcc using Scoop, it makes your life easier.
 # Installation
 You can install be any of the following methods:
 
-#TEST:
 <details>
-  <summary>Click to expand</summary>
-
-  - Option 1
-  - Option 2
-  - Option 3
+  <summary>Manual</summary>
+  1. Backup your current config
+    Windows (PowerShell):
+    <pre> ```bash Rename-Item -Path "$env:LOCALAPPDATA\nvim" -NewName "nvim.bak" ``` </pre>
 </details>
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
