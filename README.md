@@ -13,7 +13,7 @@ You can install be any of the following methods:
 <details>
   <summary>Manual</summary>
   
-  **1. Backup your current config**
+  **1. Backup your current config**<br>
     Windows (PowerShell):
     <pre>Rename-Item -Path "$env:LOCALAPPDATA\nvim" -NewName "nvim.bak"</pre>
     Windows (cmd):
@@ -21,12 +21,12 @@ You can install be any of the following methods:
 ren nvim nvim.bak</pre>
     Basically anything else:
     <pre>mv ~/.config/nvim ~/.config/nvim.bak</pre>
-  **2. Clone the ZaeNvim config files into the NeoVim config directory**
+  **2. Clone the ZaeNvim config files into the NeoVim config directory**<br>
     Windows Global:
     <pre>git clone https://github.com/zaetrix/zaenvim.git %LOCALAPPDATA%/nvim</pre>
     Others:
     <pre>git clone https://github.con/zaetrix/zaenvim.git ~/.config/nvim/</pre>
-  **3. (Optional) Remove the GitHub repo files**
+  **3. (Optional) Remove the GitHub repo files**<br>
     Windows (cmd):
     <pre>cd %LOCALAPPDATA%\nvim
     del README.md
