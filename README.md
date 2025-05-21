@@ -15,11 +15,9 @@ You can install be any of the following methods:
   1. Backup your current config
     Windows (PowerShell):
     <pre>Rename-Item -Path "$env:LOCALAPPDATA\nvim" -NewName "nvim.bak"</pre>
-
     Windows (cmd):
     <pre>cd %LOCALAPPDATA%</pre>
     <pre>ren nvim nvim.bak</pre>
-
     Basically anything else:
     <pre>mv $XDG_CONFIG_HOME/nvim $XDG_CONFIG_HOME/nvim.bak</pre>
 </details>
