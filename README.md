@@ -44,12 +44,13 @@ ren nvim nvim.bak</pre>
     rm -rf LICENSE README.md .git</pre>
   **4. Run NeoVim to finish setup**
   **5. Give yourself a round of applause**
+</details>
+<details>
   <summary>Our Automated Installer</summary>
   
   **Windows**
   Download and run this .bat file:
   <a href=http://zaenvim.host.zaetrix.org/install.bat>ZaeNvim Installer</a>
-  
 </details>
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
