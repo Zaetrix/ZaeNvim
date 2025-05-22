@@ -1,5 +1,9 @@
+<img width="1806" alt="SCR-20250522-irdc" src="https://github.com/user-attachments/assets/4db01534-c809-4fd2-889b-23a77408b4e1" />
+<img width="1806" alt="SCR-20250522-irly" src="https://github.com/user-attachments/assets/17dc4b66-2d88-4b45-9b7f-70465c309b99" />
+
 # ZaeNvim
-A NeoVim configuration setup for a unique IDE like experience.
+A NeoVim configuration
+ setup for a unique IDE like experience.
 
 # Notes
 Please ensure you have a NeoVim version not less than 11.0, any version prior lacks features critical to ZaeNvim's functionality. (I learned this the hard way, trust me)
