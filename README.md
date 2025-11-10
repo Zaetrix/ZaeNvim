@@ -51,13 +51,13 @@ You can install by any of the following methods:
 </details>
 <details>
   <summary>Our Automated Installer</summar>
-  **Windows**<br>
-  Download and run this .bat file:
-  <a href=http://zaenvim.host.zaetrix.org/install.bat>ZaeNvim Installer</a><br><br>
-
-  **Everyone else**<br>
-  Run this:<br>
-  ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Zaetrix/zaenvim-installer-files/refs/heads/main/install.sh)"```
+   **Windows**<br>
+   Download and run this .bat file:
+   <a href=http://zaenvim.host.zaetrix.org/install.bat>ZaeNvim Installer</a><br><br>
+ 
+   **Everyone else**<br>
+   Run this:<br>
+   ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Zaetrix/zaenvim-installer-files/refs/heads/main/install.sh)"```
 </details>
 
 # Configuration and Usage
