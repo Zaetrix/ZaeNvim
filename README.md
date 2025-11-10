@@ -51,6 +51,8 @@ You can install by any of the following methods:
 </details>
 <details>
   <summary>Our Automated Installer</summary>
+   <br>
+ 
    **Windows**<br>
    Download and run this .bat file:
    <a href=http://zaenvim.host.zaetrix.org/install.bat>ZaeNvim Installer</a><br><br>
